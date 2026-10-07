@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <main class="contenedor">
+        <img class="logo"
+             src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+             alt="Google">
+
+        <form class="busqueda" id="form-busqueda" action="https://www.google.com/search" method="get">
+            <div class="barra">
+                <span class="material-icons icono-lupa">search</span>
+                <input type="text" name="q" id="campo" autocomplete="off" autofocus>
+                <span class="material-icons icono-mic" title="Buscar por voz">mic</span>
+            </div>
+
+            <div class="botones">
+                <button type="submit" class="btn">Buscar con Google</button>
+                <button type="button" class="btn" id="btn-suerte">Me siento con suerte</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
